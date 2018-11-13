@@ -1,1 +1,4 @@
-print("Test")
+print("_______")
+print("   /  |")
+print("  /   |")
+print(" /____|")
