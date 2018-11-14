@@ -5,3 +5,12 @@ print("There once was a man named " + character_name + ", ")
 print("There once was a man named John, ")
 print("He was " + character_age + " years old. ")
 print("He was 35 years old. ")
+
+
+print("Giraffe \nAcademy")
+print("Giraffe \" Academy")
+
+phrase = "Giraffe Academy"
+
+print(phrase + " is cool")
+
