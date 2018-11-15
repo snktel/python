@@ -12,5 +12,26 @@ print("Giraffe \" Academy")
 
 phrase = "Giraffe Academy"
 
+print(phrase.upper().isupper())
+
+print(len(phrase))
+
+print(phrase[0:3])
+
+print(phrase.index("f"))
+
+print(phrase.replace("Giraffe", "Elephant"))
+
+print(phrase)
+
 print(phrase + " is cool")
+
+my_num = 5
+my_num1 = 6
+
+print(my_num+my_num1)
+
+print(str(my_num+my_num1) + " My favorite number")
+
+
 
