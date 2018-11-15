@@ -1,13 +1,20 @@
 
-num = []
-for i in range(1, 10):
-    num.append(input('Scan the label: '))
+rack = input("Scan barcode on working Rack: ")
 
-print(num)
+print(rack)
+
+n = int(input("How many boxes are you going to deploy? "))
+
+labels = []
+for i in range(0, n):
+    labels.append(input('Scan the label: '))
+
+print(labels)
 
 with open("labels.txt","w+") as f:
-    for s in num:
-        f.write(str(s) +"\n")
+    for s in labels:
+        f.write(str(s) +"\n" "\n")
+
 f.close()
 
 
